@@ -4,13 +4,22 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://asteinhaus.github.com/atom.xml" rel="self"/>
   <link href="http://asteinhaus.github.com/"/>
-  <updated>2012-03-10T17:47:38+01:00</updated>
+  <updated>2012-03-10T21:11:31+01:00</updated>
   <id>http://asteinhaus.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Andreas Steinhaus]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress - Ein Weblog-Framework für Hacker]]></title>
+    <link href="http://asteinhaus.github.com/blog/2012/03/10/octopress-ein-weblog-framework-fur-hacker/"/>
+    <updated>2012-03-10T19:07:00+01:00</updated>
+    <id>http://asteinhaus.github.com/blog/2012/03/10/octopress-ein-weblog-framework-fur-hacker</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
