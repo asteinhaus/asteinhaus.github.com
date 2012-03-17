@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://asteinhaus.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Github | My Octopress Blog]]></title>
+  <link href="http://asteinhaus.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://asteinhaus.github.com/"/>
   <updated>2012-03-17T09:10:31+01:00</updated>
   <id>http://asteinhaus.github.com/</id>
@@ -25,21 +25,18 @@
 
 <p>Generiert wird dadurch eine Markdown-Datei im Unterverzeichnis <code>source/_posts</code> nach der Konvention <code>YYYY-MM-DD-post-title.markdown</code>. Die Datei enthält dann etwa 7 Zeilen Metadaten in einem yaml-Header. Der Header von diesem Post sieht so aus:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>---
-</span><span class='line'>layout: post
-</span><span class='line'>title: "Octopress - Ein Weblog-Framework für Hacker"
-</span><span class='line'>date: 2012-03-10 19:07
-</span><span class='line'>comments: true
-</span><span class='line'>categories: [Octopress, Ruby, Github, Markdown]
-</span><span class='line'>---</span></code></pre></td></tr></table></div></figure>
+<p>```</p>
 
+<pre><code>---
+layout: post
+title: "Octopress - Ein Weblog-Framework für Hacker"
+date: 2012-03-10 19:07
+comments: true
+categories: [Octopress, Ruby, Github, Markdown]
+---
+</code></pre>
+
+<p>```</p>
 
 <p>Darunter schreibt man mit einem Texteditor seiner Wahl (textmate, vi, emacs, notepad++) den eigentlichen Blogpost in Markdown-Syntax. Octopress unterstützt dabei die erweiterte Syntax von kramdown.</p>
 
