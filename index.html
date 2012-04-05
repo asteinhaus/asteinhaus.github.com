@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
+  <title>Hacktoblog</title>
   <meta name="author" content="Andreas Steinhaus">
 
   
-  <meta name="description" content="Bei meiner Recherche zu Markdown bin ich zufällig über Octopress gestolpert, ein Blogging-System der etwas anderen Art. Es basiert nicht auf das &hellip;">
+  <meta name="description" content="Textverarbeitung ist eine ureigene Aufgabe für den Computer. Mit dem WYSIWYG-Ansatz nimmt man direkte Absatz- und Zeichenformatierungen vor und sieht &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -24,7 +24,7 @@
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Hacktoblog" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -35,9 +35,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">Hacktoblog</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>Blogging for hackers.</h2>
   
 </hgroup>
 
@@ -70,6 +70,66 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2012/04/05/wysiwyg-oder-markdown/">WYSIWYG Oder Markdown</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-05T06:19:00+02:00" pubdate data-updated="true">Apr 5<span>th</span>, 2012</time>
+        
+         | <a href="/blog/2012/04/05/wysiwyg-oder-markdown/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Textverarbeitung ist eine ureigene Aufgabe für den Computer. Mit dem WYSIWYG-Ansatz nimmt man direkte Absatz- und Zeichenformatierungen vor und sieht dabei sofort das Ergebnis auf dem Bildschirm so, wie das Ergebnis aussehen wird. Auch Online-Dokumente (Webseiten und E-Mails) können mit WYSIWYG-Editoren erstellt. Doch was ist die Alternative?</p>
+
+<p>Ein Hacker erstellt seine Texte gern in einem einfachen Texteditor. Für die Formatierung würde sich HTML eignen, wenn da nicht diese hässlichen <Tags> wären. Es muss aber auch nicht gleich das komplexe <a href="http://de.wikipedia.org/wiki/LaTeX" title="Wikipedia zu LaTeX">LaTeX</a> sein, denn es gibt auch eine ganze Reihe vereinfachter Auszeichnungssprachen, die für das menschliche Auge leicht lesbar sind. Die größte Verbreitung scheint mir dabei <strong>Markdown</strong> zu haben.</p>
+
+<p>Markdown nutzt sehr einfache Formatierungen, die einigen aus Nur-Text-E-Mails geläufig sein werde:</p>
+
+<pre><code>**fett**, _kursiv_
+## Überschrift der 2. Ebene
+* Aufzählung
+1. Nummerierte Aufzählung
+</code></pre>
+
+<p>Dazu kommen noch einige Konzepte für Online-Dokumente, z. B.:</p>
+
+<pre><code>[Linktext](URL "Optionaler Titel")
+![alt text](/path/to/img.jpg "Optionaler Titel")
+</code></pre>
+
+<p>Textblöcke beginnen mit 4 Leerzeichen oder einem Tab. Tabellen werden im Basic-Markdown nur mit Inline-HTML unterstützt, aber auch mit Markdown-Erweiterungen wie <a href="http://michelf.com/projects/php-markdown/extra/#table">PHP Markdown Extra</a> oder <a href="http://kramdown.rubyforge.org/syntax.html#tables">kramdown</a>. Eine vollständige Dokumentation zu den Markdown-Basics findet man auf <a href="http://daringfireball.net/projects/markdown/basics">daringfireball.net</a> oder auf deutsch: <a href="http://markdown.de/syntax/">markdown.de</a>.</p>
+
+<p><strong>Auch diese Text wurde in Markdown geschrieben!</strong> Octopress generiert die Blogbeiträge aus Markdown-Texten.</p>
+
+<p>Besonders in der OpenSource-Szene (auf github) erfreut sich Markdown großer Beliebtheit. Markdown-Dokumentationen können profitieren von Versionierung genauso wie Quellcode. Der Vergleich oder ein Merge von zwei Dokumenten ist einfach möglich. Es eignet sich also auch für die kooperative Erstellung von Dokumentionen.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2012/03/10/octopress-ein-weblog-framework-fur-hacker/">Octopress - Ein Weblog-Framework Für Hacker</a></h1>
     
     
@@ -87,6 +147,8 @@
 
 
 <time datetime="2012-03-10T19:07:00+01:00" pubdate data-updated="true">Mar 10<span>th</span>, 2012</time>
+        
+         | <a href="/blog/2012/03/10/octopress-ein-weblog-framework-fur-hacker/#disqus_thread">Comments</a>
         
       </p>
     
@@ -160,6 +222,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/04/05/wysiwyg-oder-markdown/">WYSIWYG oder Markdown</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/03/10/octopress-ein-weblog-framework-fur-hacker/">Octopress - Ein Weblog-Framework für Hacker</a>

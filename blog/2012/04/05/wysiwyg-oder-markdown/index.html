@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Ruby - Hacktoblog</title>
+  <title>WYSIWYG oder Markdown - Hacktoblog</title>
   <meta name="author" content="Andreas Steinhaus">
 
   
-  <meta name="description" content="Category: Ruby">
+  <meta name="description" content="Textverarbeitung ist eine ureigene Aufgabe für den Computer. Mit dem WYSIWYG-Ansatz nimmt man direkte Absatz- und Zeichenformatierungen vor und sieht &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://asteinhaus.github.comblog/categories/ruby">
+  <link rel="canonical" href="http://asteinhaus.github.com/blog/2012/04/05/wysiwyg-oder-markdown">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -63,36 +63,113 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Ruby</h1>
+    
+      <h1 class="entry-title">WYSIWYG Oder Markdown</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-05T06:19:00+02:00" pubdate data-updated="true">Apr 5<span>th</span>, 2012</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Textverarbeitung ist eine ureigene Aufgabe für den Computer. Mit dem WYSIWYG-Ansatz nimmt man direkte Absatz- und Zeichenformatierungen vor und sieht dabei sofort das Ergebnis auf dem Bildschirm so, wie das Ergebnis aussehen wird. Auch Online-Dokumente (Webseiten und E-Mails) können mit WYSIWYG-Editoren erstellt. Doch was ist die Alternative?</p>
 
-  
-  <h2>2012</h2>
+<p>Ein Hacker erstellt seine Texte gern in einem einfachen Texteditor. Für die Formatierung würde sich HTML eignen, wenn da nicht diese hässlichen <Tags> wären. Es muss aber auch nicht gleich das komplexe <a href="http://de.wikipedia.org/wiki/LaTeX" title="Wikipedia zu LaTeX">LaTeX</a> sein, denn es gibt auch eine ganze Reihe vereinfachter Auszeichnungssprachen, die für das menschliche Auge leicht lesbar sind. Die größte Verbreitung scheint mir dabei <strong>Markdown</strong> zu haben.</p>
 
-<article>
-  
-<h1><a href="/blog/2012/03/10/octopress-ein-weblog-framework-fur-hacker/">Octopress - Ein Weblog-Framework für Hacker</a></h1>
-<time datetime="2012-03-10T19:07:00+01:00" pubdate><span class='month'>Mar</span> <span class='day'>10</span> <span class='year'>2012</span></time>
+<p>Markdown nutzt sehr einfache Formatierungen, die einigen aus Nur-Text-E-Mails geläufig sein werde:</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/github/'>Github</a>, <a class='category' href='/blog/categories/markdown/'>Markdown</a>, <a class='category' href='/blog/categories/octopress/'>Octopress</a>, <a class='category' href='/blog/categories/ruby/'>Ruby</a></span>
-</footer>
+<pre><code>**fett**, _kursiv_
+## Überschrift der 2. Ebene
+* Aufzählung
+1. Nummerierte Aufzählung
+</code></pre>
 
+<p>Dazu kommen noch einige Konzepte für Online-Dokumente, z. B.:</p>
 
-</article>
+<pre><code>[Linktext](URL "Optionaler Titel")
+![alt text](/path/to/img.jpg "Optionaler Titel")
+</code></pre>
 
+<p>Textblöcke beginnen mit 4 Leerzeichen oder einem Tab. Tabellen werden im Basic-Markdown nur mit Inline-HTML unterstützt, aber auch mit Markdown-Erweiterungen wie <a href="http://michelf.com/projects/php-markdown/extra/#table">PHP Markdown Extra</a> oder <a href="http://kramdown.rubyforge.org/syntax.html#tables">kramdown</a>. Eine vollständige Dokumentation zu den Markdown-Basics findet man auf <a href="http://daringfireball.net/projects/markdown/basics">daringfireball.net</a> oder auf deutsch: <a href="http://markdown.de/syntax/">markdown.de</a>.</p>
+
+<p><strong>Auch diese Text wurde in Markdown geschrieben!</strong> Octopress generiert die Blogbeiträge aus Markdown-Texten.</p>
+
+<p>Besonders in der OpenSource-Szene (auf github) erfreut sich Markdown großer Beliebtheit. Markdown-Dokumentationen können profitieren von Versionierung genauso wie Quellcode. Der Vergleich oder ein Merge von zwei Dokumenten ist einfach möglich. Es eignet sich also auch für die kooperative Erstellung von Dokumentionen.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Andreas Steinhaus</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-05T06:19:00+02:00" pubdate data-updated="true">Apr 5<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://asteinhaus.github.com/blog/2012/04/05/wysiwyg-oder-markdown/" data-via="asteinhaus" data-counturl="http://asteinhaus.github.com/blog/2012/04/05/wysiwyg-oder-markdown/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/03/10/octopress-ein-weblog-framework-fur-hacker/" title="Previous Post: Octopress - Ein Weblog-Framework für Hacker">&laquo; Octopress - Ein Weblog-Framework für Hacker</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -161,7 +238,10 @@
       var disqus_shortname = 'gh-asteinhaus';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://asteinhaus.github.com/blog/2012/04/05/wysiwyg-oder-markdown/';
+        var disqus_url = 'http://asteinhaus.github.com/blog/2012/04/05/wysiwyg-oder-markdown/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
