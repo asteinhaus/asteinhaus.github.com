@@ -5,16 +5,15 @@ date: 2012-04-05 06:19
 comments: true
 categories: 
 ---
-Textverarbeitung ist eine ureigene Aufgabe für den Computer. (WYSIWYG = What you see is what you get, Was man sieht ist was man bekommt) Man nimmt direkte Absatz- und Zeichenformatierungen vor und sieht dabei sofort das Ergebnis auf dem Bildschirm so, wie (genau) das Ergebnis aussehen wird. Auch Online-Dokumente (webseiteun und E-Mails) können mit WYSIWYG-Editoren erstellt. Doch was ist die Alternative?
+Textverarbeitung ist eine ureigene Aufgabe für den Computer. Mit dem WYSIWYG-Ansatz nimmt man direkte Absatz- und Zeichenformatierungen vor und sieht dabei sofort das Ergebnis auf dem Bildschirm so, wie das Ergebnis aussehen wird. Auch Online-Dokumente (Webseiten und E-Mails) können mit WYSIWYG-Editoren erstellt. Doch was ist die Alternative?
 
-Ein Hacker erstellt seine Texte gern in einem einfachen Texteditor. Für die Formatierung würde sich HTML eignen, wenn da nicht diese hässlichen <Tags> wären. Es muss aber nicht gleich das komplexe [LaTeX](http://de.wikipedia.org/wiki/LaTeX "Wikipedia zu LaTeX") sein, denn es gibt auch eine ganze Reihe vereinfachter Auszeichnungssprachen, die für das menschliche Auge leicht lesbar ist. Die größte Verbreitung scheint mir dabei **Markdown** zu haben.
+Ein Hacker erstellt seine Texte gern in einem einfachen Texteditor. Für die Formatierung würde sich HTML eignen, wenn da nicht diese hässlichen <Tags> wären. Es muss aber auch nicht gleich das komplexe [LaTeX](http://de.wikipedia.org/wiki/LaTeX "Wikipedia zu LaTeX") sein, denn es gibt auch eine ganze Reihe vereinfachter Auszeichnungssprachen, die für das menschliche Auge leicht lesbar sind. Die größte Verbreitung scheint mir dabei **Markdown** zu haben.
 
 Markdown nutzt sehr einfache Formatierungen, die einigen aus Nur-Text-E-Mails geläufig sein werde:
-	**fett**, __kursiv__
-	## Überschrift 2. Ebene
-	* Aufzählung (* als erstes Zeichen in einer Zeile)
-	** Aufzählung der 2. Ebene
-	1. Nummerierte Aufzählung (auch als erstes Zeichen einer Zeile, Nummer egal)
+	**fett**, _kursiv_
+	## Überschrift der 2. Ebene
+	* Aufzählung
+	1. Nummerierte Aufzählung
 Dazu kommen noch einige Konzepte für Online-Dokumente, z. B.:
 	[Linktext](URL "Optionaler Titel")
 	![alt text](/path/to/img.jpg "Optionaler Titel")
