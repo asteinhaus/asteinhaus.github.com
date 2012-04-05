@@ -21,4 +21,4 @@ Textblöcke beginnen mit 4 Leerzeichen oder einem Tab. Tabellen werden im Basic-
 
 **Auch diese Text wurde in Markdown geschrieben!** Octopress generiert die Blogbeiträge aus Markdown-Texten.
 
-Besonders in der OpenSource-Szene (auf github) erfreut sich großer Beliebtheit. Markdown-Dokumentationen können profitieren von Versionierung genauso wie Quellcode. Der Vergleich oder ein Merge von zwei Dokumenten ist einfach möglich. Es eignet sich also auch für die kooperative Erstellung von Dokumentionen.
+Besonders in der OpenSource-Szene (auf github) erfreut sich Markdown großer Beliebtheit. Markdown-Dokumentationen können profitieren von Versionierung genauso wie Quellcode. Der Vergleich oder ein Merge von zwei Dokumenten ist einfach möglich. Es eignet sich also auch für die kooperative Erstellung von Dokumentionen.
