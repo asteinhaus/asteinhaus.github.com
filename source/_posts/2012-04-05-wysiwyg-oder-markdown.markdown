@@ -3,7 +3,7 @@ layout: post
 title: "WYSIWYG oder Markdown"
 date: 2012-04-05 06:19
 comments: true
-categories: 
+categories: [Markdown, Basics]
 ---
 Textverarbeitung ist eine ureigene Aufgabe für den Computer. Mit dem WYSIWYG-Ansatz nimmt man direkte Absatz- und Zeichenformatierungen vor und sieht dabei sofort das Ergebnis auf dem Bildschirm so, wie das Ergebnis aussehen wird. Auch Online-Dokumente (Webseiten und E-Mails) können mit WYSIWYG-Editoren erstellt. Doch was ist die Alternative?
 
