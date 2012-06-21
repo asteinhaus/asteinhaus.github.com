@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Hacktoblog]]></title>
   <link href="http://asteinhaus.github.com/atom.xml" rel="self"/>
   <link href="http://asteinhaus.github.com/"/>
-  <updated>2012-03-18T08:00:12+01:00</updated>
+  <updated>2012-04-05T08:53:27+02:00</updated>
   <id>http://asteinhaus.github.com/</id>
   <author>
     <name><![CDATA[Andreas Steinhaus]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[WYSIWYG oder Markdown]]></title>
+    <link href="http://asteinhaus.github.com/blog/2012/04/05/wysiwyg-oder-markdown/"/>
+    <updated>2012-04-05T06:19:00+02:00</updated>
+    <id>http://asteinhaus.github.com/blog/2012/04/05/wysiwyg-oder-markdown</id>
+    <content type="html"><![CDATA[<p>Textverarbeitung ist eine ureigene Aufgabe für den Computer. Mit dem WYSIWYG-Ansatz nimmt man direkte Absatz- und Zeichenformatierungen vor und sieht dabei sofort das Ergebnis auf dem Bildschirm so, wie das Ergebnis aussehen wird. Auch Online-Dokumente (Webseiten und E-Mails) können mit WYSIWYG-Editoren erstellt. Doch was ist die Alternative?</p>
+
+<p>Ein Hacker erstellt seine Texte gern in einem einfachen Texteditor. Für die Formatierung würde sich HTML eignen, wenn da nicht diese hässlichen <Tags> wären. Es muss aber auch nicht gleich das komplexe <a href="http://de.wikipedia.org/wiki/LaTeX" title="Wikipedia zu LaTeX">LaTeX</a> sein, denn es gibt auch eine ganze Reihe vereinfachter Auszeichnungssprachen, die für das menschliche Auge leicht lesbar sind. Die größte Verbreitung scheint mir dabei <strong>Markdown</strong> zu haben.</p>
+
+<p>Markdown nutzt sehr einfache Formatierungen, die einigen aus Nur-Text-E-Mails geläufig sein werde:</p>
+
+<pre><code>**fett**, _kursiv_
+## Überschrift der 2. Ebene
+* Aufzählung
+1. Nummerierte Aufzählung
+</code></pre>
+
+<p>Dazu kommen noch einige Konzepte für Online-Dokumente, z. B.:</p>
+
+<pre><code>[Linktext](URL "Optionaler Titel")
+![alt text](/path/to/img.jpg "Optionaler Titel")
+</code></pre>
+
+<p>Textblöcke beginnen mit 4 Leerzeichen oder einem Tab. Tabellen werden im Basic-Markdown nur mit Inline-HTML unterstützt, aber auch mit Markdown-Erweiterungen wie <a href="http://michelf.com/projects/php-markdown/extra/#table">PHP Markdown Extra</a> oder <a href="http://kramdown.rubyforge.org/syntax.html#tables">kramdown</a>. Eine vollständige Dokumentation zu den Markdown-Basics findet man auf <a href="http://daringfireball.net/projects/markdown/basics">daringfireball.net</a> oder auf deutsch: <a href="http://markdown.de/syntax/">markdown.de</a>.</p>
+
+<p><strong>Auch diese Text wurde in Markdown geschrieben!</strong> Octopress generiert die Blogbeiträge aus Markdown-Texten.</p>
+
+<p>Besonders in der OpenSource-Szene (auf github) erfreut sich Markdown großer Beliebtheit. Markdown-Dokumentationen können profitieren von Versionierung genauso wie Quellcode. Der Vergleich oder ein Merge von zwei Dokumenten ist einfach möglich. Es eignet sich also auch für die kooperative Erstellung von Dokumentionen.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress - Ein Weblog-Framework für Hacker]]></title>
