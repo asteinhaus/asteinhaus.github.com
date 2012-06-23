@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+<<<<<<< HEAD
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://asteinhaus.github.com/atom.xml" rel="self"/>
+  <link href="http://asteinhaus.github.com/"/>
+  <updated>2012-03-18T08:00:12+01:00</updated>
+=======
+  <title><![CDATA[Hacktoblog]]></title>
+  <link href="http://asteinhaus.github.com/atom.xml" rel="self"/>
+  <link href="http://asteinhaus.github.com/"/>
+  <updated>2012-04-05T08:53:27+02:00</updated>
+>>>>>>> 07c3376cb5d0b247073cdb7a1130beee27a81da1
+  <id>http://asteinhaus.github.com/</id>
+  <author>
+    <name><![CDATA[Andreas Steinhaus]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+<<<<<<< HEAD
+=======
+    <title type="html"><![CDATA[WYSIWYG oder Markdown]]></title>
+    <link href="http://asteinhaus.github.com/blog/2012/04/05/wysiwyg-oder-markdown/"/>
+    <updated>2012-04-05T06:19:00+02:00</updated>
+    <id>http://asteinhaus.github.com/blog/2012/04/05/wysiwyg-oder-markdown</id>
+    <content type="html"><![CDATA[<p>Textverarbeitung ist eine ureigene Aufgabe für den Computer. Mit dem WYSIWYG-Ansatz nimmt man direkte Absatz- und Zeichenformatierungen vor und sieht dabei sofort das Ergebnis auf dem Bildschirm so, wie das Ergebnis aussehen wird. Auch Online-Dokumente (Webseiten und E-Mails) können mit WYSIWYG-Editoren erstellt. Doch was ist die Alternative?</p>
+
+<p>Ein Hacker erstellt seine Texte gern in einem einfachen Texteditor. Für die Formatierung würde sich HTML eignen, wenn da nicht diese hässlichen <Tags> wären. Es muss aber auch nicht gleich das komplexe <a href="http://de.wikipedia.org/wiki/LaTeX" title="Wikipedia zu LaTeX">LaTeX</a> sein, denn es gibt auch eine ganze Reihe vereinfachter Auszeichnungssprachen, die für das menschliche Auge leicht lesbar sind. Die größte Verbreitung scheint mir dabei <strong>Markdown</strong> zu haben.</p>
+
+<p>Markdown nutzt sehr einfache Formatierungen, die einigen aus Nur-Text-E-Mails geläufig sein werde:</p>
+
+<pre><code>**fett**, _kursiv_
+## Überschrift der 2. Ebene
+* Aufzählung
+1. Nummerierte Aufzählung
+</code></pre>
+
+<p>Dazu kommen noch einige Konzepte für Online-Dokumente, z. B.:</p>
+
+<pre><code>[Linktext](URL "Optionaler Titel")
+![alt text](/path/to/img.jpg "Optionaler Titel")
+</code></pre>
+
+<p>Textblöcke beginnen mit 4 Leerzeichen oder einem Tab. Tabellen werden im Basic-Markdown nur mit Inline-HTML unterstützt, aber auch mit Markdown-Erweiterungen wie <a href="http://michelf.com/projects/php-markdown/extra/#table">PHP Markdown Extra</a> oder <a href="http://kramdown.rubyforge.org/syntax.html#tables">kramdown</a>. Eine vollständige Dokumentation zu den Markdown-Basics findet man auf <a href="http://daringfireball.net/projects/markdown/basics">daringfireball.net</a> oder auf deutsch: <a href="http://markdown.de/syntax/">markdown.de</a>.</p>
+
+<p><strong>Auch diese Text wurde in Markdown geschrieben!</strong> Octopress generiert die Blogbeiträge aus Markdown-Texten.</p>
+
+<p>Besonders in der OpenSource-Szene (auf github) erfreut sich Markdown großer Beliebtheit. Markdown-Dokumentationen können profitieren von Versionierung genauso wie Quellcode. Der Vergleich oder ein Merge von zwei Dokumenten ist einfach möglich. Es eignet sich also auch für die kooperative Erstellung von Dokumentionen.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+>>>>>>> 07c3376cb5d0b247073cdb7a1130beee27a81da1
+    <title type="html"><![CDATA[Octopress - Ein Weblog-Framework für Hacker]]></title>
+    <link href="http://asteinhaus.github.com/blog/2012/03/10/octopress-ein-weblog-framework-fur-hacker/"/>
+    <updated>2012-03-10T19:07:00+01:00</updated>
+    <id>http://asteinhaus.github.com/blog/2012/03/10/octopress-ein-weblog-framework-fur-hacker</id>
+    <content type="html"><![CDATA[<p>Bei meiner Recherche zu Markdown bin ich zufällig über <strong>Octopress</strong> gestolpert, ein Blogging-System der etwas anderen Art. Es basiert nicht auf das übliche Set von PHP + MySQL, welches ein Web-CMS bietet. Nein, ganz im Gegenteil. <a href="http://octopress.org/">Octopress</a> basiert Ruby und ein Git-Repository. Um mit Octopress zu arbeiten, klont man sich das dazugehörige Repository von <a href="https://github.com/imathis/octopress">Github</a> und erzeugt einen Posting mit in der Kommandozeile.</p>
+
+<pre><code>rake new_post["Mein neuer Blogposttitel"]
+</code></pre>
+
+<p>Generiert wird dadurch eine Markdown-Datei im Unterverzeichnis <code>source/_posts</code> nach der Konvention <code>YYYY-MM-DD-post-title.markdown</code>. Die Datei enthält dann etwa 7 Zeilen Metadaten in einem yaml-Header. Der Header von diesem Post sieht so aus:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>---
+</span><span class='line'>layout: post
+</span><span class='line'>title: "Octopress - Ein Weblog-Framework für Hacker"
+</span><span class='line'>date: 2012-03-10 19:07
+</span><span class='line'>comments: true
+</span><span class='line'>categories: [Octopress, Ruby, Github, Markdown]
+</span><span class='line'>---</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Darunter schreibt man mit einem Texteditor seiner Wahl (textmate, vi, emacs, notepad++) den eigentlichen Blogpost in Markdown-Syntax. Octopress unterstützt dabei die erweiterte Syntax von kramdown.</p>
+
+<p>Abschließend lässt man dann den fertigen Post als statische HTML-Seite generieren. Wie gesagt, keine Datenbank, kein Web-CMS!</p>
+
+<pre><code>rake generate
+</code></pre>
+
+<p>Für das Hosting habe ich mich für eine <em>Github Page</em> enschieden. Alternativ beschreibt die Octopress die Nutzung der Platform <em>Heroku</em> oder einem eigenen Server, welcher mit <em>Rsync</em> bestückt wird. Wenn man eine <em>Github Page</em> erstmal eingerichtet hat genug für das Deployment:</p>
+
+<pre><code>rake deploy
+</code></pre>
+
+<p>Github informiert jeweils per E-Mail, wenn die Seite erfolgreich neu erstellt wurde. Fertig.</p>
+
+<p>Auf die Tools <strong>Git/Github</strong>, <strong>Markdown</strong> und <strong>ruby</strong> werde ich vielleicht in einem späteren Blogpost etwas genauer eingehen. Abschließend noch die Features, die mich bei <em>Octopress</em> überzeugt haben.</p>
+
+<ul>
+<li>Modernes Webdesign mit HTML5</li>
+<li>Ein Template mit einem <em>Responsive Layout</em></li>
+<li>Schreiben mit Markdown</li>
+<li>Einfache Plugins zur Erweiterung</li>
+<li>Einfaches Deployment</li>
+</ul>
+
+
+<p>Ein Manko hat <em>Octopress</em> natürlich. Da nicht mit einer Datenbank gearbeitet wird, kann auch mit Bordmitteln kein Kommentarformular angeboten werden, da Kommentare auch nirgendwo gespeichert werden könnten. Aber auch hier gibt es eine Plugin zur Kommentarplatform <a href="http://disqus.com/">Disqus</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
