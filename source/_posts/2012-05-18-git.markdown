@@ -6,3 +6,7 @@ comments: true
 categories: [Git, Basics]
 ---
 
+Das Versionskontrollsystem Git ist auf dem Vormarsch. Zu recht, wie ich finde. Git ist leichtgewichtig, schnell und lokal (ohne Server) einsetzbar. Ein neues Repository erstellt man in einem Arbeitsverzeichnis mit Dateien und Unterverzeichnisen mit nur einer Zeile: <code>git init</code>
+
+
+
