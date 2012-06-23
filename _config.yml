@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://asteinhaus.github.com
-title: Hacktoblog
-subtitle: Blogging for hackers.
+title: My Octopress Blog
+subtitle: A blogging framework for hackers.
 author: Andreas Steinhaus
 simple_search: http://google.com/search
-description: Ein deutscher Weblog über Hackerthemen, wie Octopress, Markdown, ...
+description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -89,8 +89,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: gh-asteinhaus
-disqus_show_comment_count: true
+disqus_short_name:
+disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id:
