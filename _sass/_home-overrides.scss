@@ -1,0 +1,90 @@
+// ------------------------------------------------
+// Home page: full posts listed newest first
+// Drop this into your _sass/ folder and
+// @import it from assets/css/style.scss
+// ------------------------------------------------
+
+.home {
+  .post-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .post-full {
+    margin-bottom: 2.5rem;
+
+    .post-header {
+      margin-bottom: 1rem;
+
+      .post-title {
+        font-size: 1.75rem;
+        line-height: 1.3;
+        margin-bottom: 0.3rem;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      .post-meta {
+        font-size: 0.875rem;
+        color: #777;
+        margin: 0;
+
+        .post-category {
+          font-size: 0.8rem;
+          background-color: #f0f0f0;
+          padding: 1px 6px;
+          border-radius: 3px;
+          color: #555;
+        }
+      }
+    }
+
+    .post-content {
+      // Full post content — no truncation
+      line-height: 1.75;
+
+      h1, h2, h3 { margin-top: 1.5rem; }
+
+      pre, code {
+        font-size: 0.9rem;
+      }
+
+      pre {
+        padding: 1rem;
+        overflow-x: auto;
+        background: #f8f8f8;
+        border-left: 3px solid #ccc;
+        border-radius: 3px;
+      }
+    }
+
+    .post-footer {
+      margin-top: 1.25rem;
+
+      .post-permalink {
+        font-size: 0.875rem;
+        color: #888;
+        text-decoration: none;
+
+        &:hover {
+          color: #333;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .post-divider {
+    border: none;
+    border-top: 1px solid #e8e8e8;
+    margin: 2.5rem 0;
+  }
+}
