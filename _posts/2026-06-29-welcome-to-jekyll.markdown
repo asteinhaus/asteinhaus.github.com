@@ -1,28 +1,36 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "ByeBye, Octopress! Migration zu Jekyll!"
 date:   2026-06-29 19:51:01 +0200
-categories: jekyll update
+categories: jekyll migration
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+14 Jahre später kümmer ich mich doch nochmal um diese Projekt. Es nach nur drei Beiträgen (eigentich nur 2 und ein angefangener Git-Beitrag) habe ich das Projekt aufgegeben und einfach online gelassen.
 
-Jekyll requires blog post files to be named according to the following format:
+Octopress wurde alt und inzwischen eingestellt. Mein Snyk-Scan berichtet wöchentlich per E-Mail eine Reihe von CVEs, zuletzt `1C 24H 20M 1L` (CVSS mit den 4 Stufen, Critical/High/Medium/Low - kurz C/H/M/L). 
+
+Das habe ich jetzt geändert und im _Chat_ mit [Cloude Sonnet 4.6 (niedrig)](https://www.kiberatung.de/blog/claude-sonnet-4-6-alles-was-du-wissen-musst-deutsch?utm_medium=website&utm_source=kiberatung.de%2Fblog%2Fclaude-sonnet-4-6-alles-was-du-wissen-musst-deutsch) das alte Octopress-Projekt betrachtet, Alternativen wie `Hugo`, `Astro` und `Èleventy` ausgeschlossen und auf **Jekyll** migriert.
+
+Wenn dieser Post online ist, hat das erfreulich gut geklappt. Am Ende habe ich noch den Beispiel-Post "Welcone to Jekyll" von Hand übersetzt (und dabei nochmal das Gelernte vertift). Also folgendes:
+
+Die Posts erstellt mal als Datei im `_posts`-Verzeichnis. Das Beispiel kann angepasst weden und nach einem Re-Build können die Änderungen betrachtet werden. Der Rebuild der Site kann auch verschienden Wegen passiernen, aber der übliche Weg ist das Ausführen von `jekyll serve` in der Command Line (CMD, Shell), was direkt auch einen Webserver startet und Die Site bei jeder Änderung einer Datei neu generiert (auto-regenerates).
+
+Jekyll benötigt Blogpost-Dateien, die in folgenden Format benannt werden:
 
 `YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Dabei ist `YEAR` eine 4-Ziffernnummer, `MONTH` und `DAY` sind beide 2-Ziffernnummern, und `MARKUP` ist die Dateierweiterung (file extension), die das benutzte Format der Datei repräsentiert. 
 
-Jekyll also offers powerful support for code snippets:
+Jekyll bietet auch mächtigen Support für Code-Snippets:
 
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+print_hi('Lisa')
+#=> prints 'Hi, Lisa' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Besuch die [Jekyll docs][jekyll-docs] für mehr Infomationen,  um das meiste aus Jekyll herauszuholen. Bugs/Feature-Anforderungen können alle auf [Jekyll’s GitHub repo][jekyll-gh] eingebracht werden. Bei Fragen, kannst du auf [Jekyll Talk][jekyll-talk] fragen.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
