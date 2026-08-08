@@ -7,7 +7,7 @@ published: true
 ---
 Bei meiner Recherche zu Markdown bin ich zufällig über **Octopress** gestolpert, ein Blogging-System der etwas anderen Art. Es basiert nicht auf das übliche Set von PHP + MySQL, welches ein Web-CMS bietet. Nein, ganz im Gegenteil. [Octopress](http://octopress.org/) basiert Ruby und ein Git-Repository. Um mit Octopress zu arbeiten, klont man sich das dazugehörige Repository von [Github](https://github.com/imathis/octopress) und erzeugt einen Posting mit in der Kommandozeile.
 	
-	rake new_post["Mein neuer Blogposttitel"]
+    rake new_post["Mein neuer Blogposttitel"]
 
 
 Generiert wird dadurch eine Markdown-Datei im Unterverzeichnis `source/_posts` nach der Konvention `YYYY-MM-DD-post-title.markdown`. Die Datei enthält dann etwa 7 Zeilen Metadaten in einem yaml-Header. Der Header von diesem Post sieht so aus:
@@ -26,11 +26,11 @@ Darunter schreibt man mit einem Texteditor seiner Wahl (textmate, vi, emacs, not
 
 Abschließend lässt man dann den fertigen Post als statische HTML-Seite generieren. Wie gesagt, keine Datenbank, kein Web-CMS!
 
-	rake generate
+    rake generate
 	
 Für das Hosting habe ich mich für eine _Github Page_ enschieden. Alternativ beschreibt die Octopress die Nutzung der Platform _Heroku_ oder einem eigenen Server, welcher mit _Rsync_ bestückt wird. Wenn man eine _Github Page_ erstmal eingerichtet hat genug für das Deployment:
 
-	rake deploy
+    rake deploy
 	
 Github informiert jeweils per E-Mail, wenn die Seite erfolgreich neu erstellt wurde. Fertig.
 
